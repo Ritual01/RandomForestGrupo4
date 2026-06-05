@@ -135,7 +135,7 @@ with col1:
     )
 
     mes_fallecimiento = st.selectbox(
-        "Mes de fallecimiento",
+        "Mes de análisis",
         list(range(1, 13)),
         format_func=lambda x: {
             1: "Enero",
@@ -228,7 +228,7 @@ st.markdown(
     - Provincia
     - Sexo
     - Rango de edad
-    - Mes de fallecimiento
+    - Mes de análisis
 
     **Clases de salida:**
     - BAJO
